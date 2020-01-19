@@ -127,7 +127,6 @@ body {
 }
 
 #social .social-content i.fab.fa-twitter:hover {
-    cursor: pointer;
     color: coral;
 }
 
@@ -156,7 +155,7 @@ body {
 
 #contact .content-info {
     background: #f4f4f4;
-    border: 1px solid #333;
+    /* border: 1px solid #333; */
     border-radius: 5px ;
     padding: 3rem;
     margin-top: 1rem;
