@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background: rgb(170, 166, 166);
+    border: 1px solid rgb(170, 166, 166);
     color: #000;
 }
 
@@ -42,7 +42,6 @@ body {
 #main-section .container img {
     height: 35rem;
     width: 45rem;
-    background: rgb(170, 166, 166);
     border-radius: 25px;
     border: 1px solid gray;
     padding: 1rem;
@@ -86,12 +85,76 @@ body {
     border-radius: 5px;
 }
 
-#work .work-content a:hover {
-    background: #fff;
+#work .work-content a:hover { 
+    background: #f4f4f4;  
     color: #000;  
-    border: 1px dotted coral;
+    border: 1px solid #333;
 }
 
 #work .work-content h5, img, p {
     padding: 1rem;
 }
+
+#social .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#social .social-content {
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#social .social-content i.fab.fa-twitter {
+    color: rgba(29,161,242,1.00);
+    background: #fff;
+    padding: 1rem;
+}
+
+#social .social-content i.fab.fa-linkedin-in {
+    background: #0077b5;
+    color: #fff;
+    padding: 1rem;
+}
+
+#social .social-content i.fab.fa-facebook-f {
+    background: #fff;
+    color: #3578E5;
+    padding: 1rem;
+}
+
+#social h1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#contact .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+#contact .content-info {
+    background: #f4f4f4;
+    border: 1px solid #333;
+    padding: 3rem;
+    margin-top: 1rem;
+}
+
+#contact .content-info p {
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+#contact h1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
