@@ -89,7 +89,7 @@ body {
 #work .work-content a:hover {
     background: #fff;
     color: #000;  
-    border: 1px dotted #f4f4f4;
+    border: 1px dotted coral;
 }
 
 #work .work-content h5, img, p {
