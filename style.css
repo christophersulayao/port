@@ -126,6 +126,21 @@ body {
     padding: 1rem;
 }
 
+#social .social-content i.fab.fa-twitter:hover {
+    cursor: pointer;
+    color: coral;
+}
+
+#social .social-content i.fab.fa-linkedin-in:hover {
+    cursor: pointer;
+    color: coral;
+}
+
+#social .social-content i.fab.fa-facebook-f:hover {
+    cursor: pointer;
+    color: coral;
+}
+
 #social h1 {
     text-align: center;
     margin-top: 1rem;
@@ -142,6 +157,7 @@ body {
 #contact .content-info {
     background: #f4f4f4;
     border: 1px solid #333;
+    border-radius: 5px ;
     padding: 3rem;
     margin-top: 1rem;
 }
