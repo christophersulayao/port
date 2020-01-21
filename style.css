@@ -4,10 +4,14 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     background: #f4f4f4;
     color: #000;
+}
+
+a {
+    text-decoration: none;    
 }
 
 #home span {
@@ -41,7 +45,7 @@ body {
 
 #main-section .container img {
     height: 35rem;
-    width: 45rem;
+    width: 35rem;
     border-radius: 25px;
     border: 1px solid gray;
     padding: 1rem;
@@ -58,8 +62,9 @@ body {
 }
 
 #work h1 {
+    font-size: 4rem;
     text-align: center;
-    margin: 1rem;
+    margin: 4rem;
 }
 
 #work .work-content {
@@ -71,6 +76,7 @@ body {
     border: 1px solid gray;
     margin: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #work .work-content p {
@@ -93,6 +99,15 @@ body {
 
 #work .work-content h5, img, p {
     padding: 1rem;
+}
+
+#work .work-content h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+#work .work-content h5 {
+    font-size: 2rem
 }
 
 #social .container {
