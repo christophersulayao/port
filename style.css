@@ -110,17 +110,22 @@ a {
     font-size: 2rem
 }
 
+
+
 #social .container {
     display: flex;
     justify-content: space-around;
+    background: #f4f4f4;
+    border: 1px solid gray;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 #social .social-content {
     padding: 1rem;
-    border: 1px solid gray;
     border-radius: 5px;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: .75rem;
+    margin-top: .75rem;
 }
 
 #social .social-content i.fab.fa-twitter {
@@ -142,6 +147,7 @@ a {
 }
 
 #social .social-content i.fab.fa-twitter:hover {
+    cursor: pointer;
     color: coral;
 }
 
@@ -159,6 +165,20 @@ a {
     text-align: center;
     margin-top: 1rem;
 }
+
+#social .social-content i.fab.fa-twitter a {
+    color: rgba(29,161,242,1.00);
+}
+
+#social .social-content i.fab.fa-facebook-f a {
+    color: #3578E5;
+}
+
+#social .social-content i.fab.fa-linkedin-in a {
+    color: #fff;
+}
+
+
 
 #contact .container {
     display: flex;
