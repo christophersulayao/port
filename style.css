@@ -184,7 +184,7 @@ a {
 
 #contact .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     margin: 1rem;
@@ -209,4 +209,47 @@ a {
     margin-bottom: 1rem;
 }
 
+ 
+@media(max-width: 500px) {
+    #work .container {
+        display: flex;
+        flex-direction: column;
+    }
 
+    #work h1 {
+        font-size: 3rem;
+    }
+
+    #header-main #main-nav {
+        width: 130vw;
+    }
+
+    #header-main #main-nav .container {
+        font-size: 1rem;
+        width: 130vw;
+        justify-content: space-evenly;
+    }
+
+    #main-section .container {
+        width: 130vw;
+    }
+
+    #main-section .container img {
+        height: 25rem;
+        width: 25rem;
+    }
+
+    #social h1 {
+        font-size: 2rem;
+        width: 140vw;
+    }
+
+    #social .container{
+        align-items: center;
+        width: 140vw;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border: none;
+    }
+  }
