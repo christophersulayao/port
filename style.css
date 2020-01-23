@@ -118,7 +118,6 @@ a {
     display: flex;
     justify-content: space-around;
     background: #f4f4f4;
-    border: 1px solid gray;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
