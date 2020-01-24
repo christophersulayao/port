@@ -255,7 +255,7 @@ a {
 
   #about-main .container {
       display: flex;
-      background: #333;
+      background: lightgrey;
       width: 90%;
       margin-left: auto;
       margin-right: auto;
@@ -272,7 +272,7 @@ a {
     width: 550px;
 }
 
-#about-main .container .me p, a {
+#about-main .container .me p {
    font-size: 2rem;
    color: #fff;
 }
@@ -291,4 +291,16 @@ a {
     display: flex;
     padding: 1rem;
  }
+
+ #about-main .container .me-skills-container {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 1rem;
+ }
+
+ #about-main .container .me-skills-container i{
+    font-size: 6.5rem;
+    margin: 1rem;
+    color: #f4f4f4;
+}
 
