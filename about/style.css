@@ -1,0 +1,139 @@
+body {
+    background: url('../images/bg.jpg')no-repeat center center/cover;
+    margin-top: 2rem;
+}
+
+#header-main #main-nav .container{
+    color: #fff;
+    width: auto;
+    margin: 0 1rem;
+}
+
+#header-main #main-nav .container a{
+    color: #fff;
+    width: auto;
+    margin: 0 1rem;
+}
+
+#about-main .container {
+    display: flex;
+    background: #000;
+    color: #fff;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    opacity: .6;
+    /* box-shadow: 10px 10px 10px #fff; */
+}
+
+#about-main .container .me {
+  display: flex;
+  padding: 1rem;
+}
+
+#about-main .container .me img {
+  height: 400px;
+  width: 450px;
+  border:1px solid #f4f4f4;
+  box-shadow: 10px 10px 10px #333;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+#about-main .container .me p {
+ font-size: 3rem;
+ color: #fff;
+}
+
+#about-main .container .me .me-container img {
+  height: 100px;
+  width: 110px;
+}
+
+#about-main .container .me .me-container p {
+ margin-top: 1.4rem;
+}
+
+
+#about-main .container .me .me-container{
+  display: flex;
+  padding: 1rem;
+}
+
+#skill-main .container {
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  opacity: .3;
+}
+
+#skill-main .container h1 {
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 6rem;
+  text-align: center;
+}
+
+#skill-main .me-skills-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#skill-main .me-skills-container i {
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+}
+
+#skill-main .me-skills-container i:hover {
+    color: #2b50c8;
+    cursor: pointer;
+} 
+
+#tool-main .container {
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  color: #fff;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  opacity: .4;
+}
+
+
+#tool-main .container h1 {
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 6rem;
+  text-align: center;
+}
+
+#tool-main .me-tools-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#tool-main .me-tools-container i {
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  border-radius: 10px;
+  
+}
+
