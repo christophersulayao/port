@@ -134,6 +134,85 @@ body {
   background: #333;
   color: #fff;
   border-radius: 10px;
-  
 }
 
+@media(max-width: 500px) {
+    body {
+        width: auto;
+    }
+
+    #about-main .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        opacity: .6;
+        
+    }
+
+    #about-main .container .me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about-main .container .me img {
+        height: 200px;
+        width: 225px;
+        border: 1px solid #f4f4f4;
+        box-shadow: 10px 10px 10px #333;
+        border-radius: 50%;
+        margin: 1rem;
+    }
+
+    #about-main .container .me .me-container{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about-main .container .me .me-container img {
+        display: none;
+    }
+
+    #about-main .container .me .me-container p {
+        font-size: 1.5rem;
+    }
+
+    #header-main #main-nav {
+        width: auto;
+        padding:.5rem;
+    }
+
+    #header-main #main-nav .container a{
+        font-size: .5rem;
+        justify-content: space-between;
+
+    }
+
+    #skill-main .container h1 {
+        font-size: 2rem;
+    }
+
+    #skill-main .container {
+        opacity: .5;
+    }
+
+    #skill-main .container .skill .me-skills-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #skill-main .container .skill .me-skills-container i {
+        font-size: 2rem;
+        padding: .5rem;
+    }
+
+   
+}
