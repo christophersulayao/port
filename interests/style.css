@@ -1,0 +1,70 @@
+#interests {
+    padding: 1rem 5rem;
+}
+
+#interests h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#interests .interest-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: #f4f4f4;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#interests .interest-container .interest-content {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  background: url('./img/anime.jpg')no-repeat center/cover;
+  color: #000;
+}
+
+#interests .interest-container img {
+    height: 200px;
+    width: 200px;
+    margin: 2rem;
+}
+
+#interests .interest-container p {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #000;
+    font-size: 2rem;
+}
+
+
+#interests .food-container {
+    display: grid;
+    grid-template-columns: auto;
+    background: #f4f4f4;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#interests .food-container .interest-content {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  background: url('./img/sushi.jpg')no-repeat center/cover;
+  color: #fff;
+  
+}
+
+#interests .food-container img {
+    height: 200px;
+    width: 200px;
+    margin: 2rem;
+}
+
+#interests .food-container p {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fff;
+    font-size: 2rem;
+}
+
