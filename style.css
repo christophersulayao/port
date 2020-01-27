@@ -155,6 +155,10 @@ a {
 
  
 @media(max-width: 450px) {
+    body {
+        width: auto;
+    }
+
     #work .container {
         width: auto;
         display: flex;
@@ -166,7 +170,7 @@ a {
     }
 
     #header-main #main-nav {
-        width: 130vw;
+        width: auto;
     }
 
     #header-main #main-nav .container {
